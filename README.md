@@ -9,5 +9,6 @@ Additional changes:
 - disabled AVX for deploying on older server
 
 Starting command example:
-- docker run -d -v opencv-notebooks:/home/jovyan/work -p 8001:8888 \
-  jupyter-opencv start-notebook.sh --NotebookApp.password='sha1:123456789012:1234567890abcdefghijklmnoprstqvwxyz'
+
+    docker run -d -v opencv-notebooks:/home/jovyan/work -p 8001:8888 \
+        jupyter-opencv start-notebook.sh --NotebookApp.password='sha1:123456789012:1234567890abcdefghijklmnoprstqvwxyz'
